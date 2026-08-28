@@ -1,4 +1,4 @@
-ID_Paziente;Eta;Sesso;Gruppo_sano/patologico;Scolarita
+ID_Paziente;Eta;Sesso;Gruppo_sano_patologico;Scolarita
 PD1;79;M;Parkinson;14
 PD2;74;M;Parkinson;11
 PD3;79;F;Parkinson;13
