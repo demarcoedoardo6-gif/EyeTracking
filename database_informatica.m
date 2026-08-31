@@ -70,7 +70,7 @@ disp(Analisi_Ipometria(:, {'Gruppo_sano_patologico', 'mean_Ampiezza_deg', 'mean_
 
 
 
-% FASE 4: SUPPORTO DECISIONALE CON MACHINE LEARNING (EXPLAINABLE AI)
+% SUPPORTO DECISIONALE CON MACHINE LEARNING (EXPLAINABLE AI)
 
 % Addestramento di un modello per prevedere automaticamente se un paziente appartiene al gruppo "Controllo" o "Parkinson/Alzheimer".
 
@@ -99,7 +99,7 @@ view(Modello_Diagnostico, 'Mode', 'graph');
 
 
 
-%%  5.1 Generazione Tracciato Oculomotore Sintetico
+%% Generazione Tracciato Oculomotore Sintetico
 
 % Creazione dell'asse del tempo (1 secondo diviso in 1000 millisecondi)
 Tempo_ms = 1:1000; 
@@ -127,7 +127,4 @@ xlabel('Tempo (millisecondi)', 'Color', 'white');
 ylabel('Posizione Occhio (gradi)', 'Color', 'white');
 legend({'Controllo (Sano)', 'Parkinson', 'Alzheimer'}, 'TextColor', 'white', 'Color', [0.2 0.2 0.2], 'Location', 'northwest');
 grid on;
-
-
-
 
